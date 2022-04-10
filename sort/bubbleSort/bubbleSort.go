@@ -26,7 +26,6 @@ func bubbleSort(slice []int) []int {
 	return slice
 }
 
-
 func bubbleSort2(slice []int) []int {
 	for i := 0; i < len(slice)-1; i++ {
 		for j := len(slice) - 1; j > i; j-- {
